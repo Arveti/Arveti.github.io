@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,12 +30,25 @@
     </script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
-        .backdrop-blur-xl { backdrop-filter: blur(24px); }
-        .backdrop-blur-sm { backdrop-filter: blur(4px); }
-        .bg-clip-text { -webkit-background-clip: text; background-clip: text; }
-        .text-transparent { color: transparent; }
+        .backdrop-blur-xl {
+            backdrop-filter: blur(24px);
+        }
+
+        .backdrop-blur-sm {
+            backdrop-filter: blur(4px);
+        }
+
+        .bg-clip-text {
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+
+        .text-transparent {
+            color: transparent;
+        }
     </style>
 </head>
+
 <body class="min-h-screen bg-gradient-to-br from-neutral-50 via-stone-50 to-amber-50/30">
     <!-- Navigation -->
     <nav class="bg-white/90 backdrop-blur-xl border-b border-neutral-200/60 sticky top-0 z-50 shadow-sm">
@@ -42,20 +56,26 @@
             <div class="flex justify-between items-center h-16">
                 <!-- Logo -->
                 <div class="flex items-center space-x-2">
-                    <div class="w-8 h-8 bg-gradient-to-r from-amber-500 via-orange-500 to-red-400 rounded-xl flex items-center justify-center shadow-lg">
+                    <div
+                        class="w-8 h-8 bg-gradient-to-r from-amber-500 via-orange-500 to-red-400 rounded-xl flex items-center justify-center shadow-lg">
                         <i class="fas fa-chart-line text-white text-sm"></i>
                     </div>
-                    <span class="text-xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
+                    <span
+                        class="text-xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
                         Portfolio Market
                     </span>
                 </div>
 
                 <!-- Desktop Navigation -->
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="#features" class="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">Features</a>
-                    <a href="#how-it-works" class="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">How it Works</a>
-                    <a href="#global" class="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">Global Access</a>
-                    <a href="#testimonials" class="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">Reviews</a>
+                    <a href="#features"
+                        class="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">Features</a>
+                    <a href="#how-it-works"
+                        class="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">How it Works</a>
+                    <a href="#global"
+                        class="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">Global Access</a>
+                    <a href="#testimonials"
+                        class="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">Reviews</a>
                     <!-- <button class="border border-neutral-300 text-neutral-700 hover:bg-neutral-50 bg-transparent px-4 py-2 rounded-lg transition-colors">
                         Sign In
                     </button>
@@ -73,20 +93,27 @@
             </div>
 
             <!-- Mobile Navigation -->
-            <div id="mobile-menu" class="hidden md:hidden border-t border-neutral-200/60 py-4 bg-white/95 backdrop-blur-xl">
+            <div id="mobile-menu"
+                class="hidden md:hidden border-t border-neutral-200/60 py-4 bg-white/95 backdrop-blur-xl">
                 <div class="flex flex-col space-y-4">
-                    <a href="#features" class="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">Features</a>
-                    <a href="#how-it-works" class="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">How it Works</a>
-                    <a href="#global" class="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">Global Access</a>
-                    <a href="#testimonials" class="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">Reviews</a>
-                    <div class="flex flex-col space-y-2 pt-4 border-t border-neutral-200/60">
-                        <button class="border border-neutral-300 text-neutral-700 hover:bg-neutral-50 bg-transparent px-4 py-2 rounded-lg transition-colors">
+                    <a href="#features"
+                        class="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">Features</a>
+                    <a href="#how-it-works"
+                        class="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">How it Works</a>
+                    <a href="#global"
+                        class="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">Global Access</a>
+                    <a href="#testimonials"
+                        class="text-neutral-600 hover:text-neutral-900 transition-colors font-medium">Reviews</a>
+                    <!-- <div class="flex flex-col space-y-2 pt-4 border-t border-neutral-200/60">
+                        <button
+                            class="border border-neutral-300 text-neutral-700 hover:bg-neutral-50 bg-transparent px-4 py-2 rounded-lg transition-colors">
                             Sign In
                         </button>
-                        <button class="bg-gradient-to-r from-neutral-800 to-stone-700 hover:from-neutral-900 hover:to-stone-800 shadow-lg text-white px-4 py-2 rounded-lg transition-all">
+                        <button
+                            class="bg-gradient-to-r from-neutral-800 to-stone-700 hover:from-neutral-900 hover:to-stone-800 shadow-lg text-white px-4 py-2 rounded-lg transition-all">
                             Get Started
                         </button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -95,99 +122,44 @@
     <!-- Hero Section -->
     <section class="relative py-20 lg:py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
-                <div class="text-center lg:text-left">
-                    <div class="mb-6 inline-block bg-gradient-to-r from-amber-100 to-orange-100 text-amber-800 border border-amber-200 px-4 py-2 rounded-full text-sm font-medium">
+            <div class="flex flex-col items-center text-center">
+                <div class="text-center mx-auto">
+                    <div
+                        class="mb-6 inline-block bg-gradient-to-r from-amber-100 to-orange-100 text-amber-800 border border-amber-200 px-4 py-2 rounded-full text-sm font-medium">
                         🌍 Available in 48 Countries
                     </div>
 
                     <h1 class="text-4xl lg:text-6xl font-bold text-neutral-900 mb-6 leading-tight">
                         Discover & Trade
-                        <span class="bg-gradient-to-r from-amber-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
+                        <span
+                            class="bg-gradient-to-r from-amber-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
                             Portfolio Data
                         </span>
                     </h1>
 
-                    <p class="text-xl text-neutral-600 mb-8 max-w-2xl leading-relaxed">
+                    <p class="text-xl text-neutral-600 mb-8 max-w-2xl leading-relaxed mx-auto">
                         The world's marketplace for portfolio compositions and financial data. Create, discover, and
                         purchase detailed portfolio holdings with comprehensive analytics.
                     </p>
 
                     <!-- Key Benefits -->
-                    <div class="flex flex-wrap gap-4 mb-8 justify-center lg:justify-start">
-                        <div class="flex items-center space-x-2 bg-white/80 backdrop-blur-sm rounded-full px-4 py-2 border border-neutral-200/60 shadow-sm">
+                    <div class="flex flex-wrap gap-4 mb-8 justify-center">
+                        <div
+                            class="flex items-center space-x-2 bg-white/80 backdrop-blur-sm rounded-full px-4 py-2 border border-neutral-200/60 shadow-sm">
                             <i class="fas fa-check-circle text-emerald-600 text-sm"></i>
                             <span class="text-sm font-medium text-neutral-700">No Investment Advice</span>
                         </div>
-                        <div class="flex items-center space-x-2 bg-white/80 backdrop-blur-sm rounded-full px-4 py-2 border border-neutral-200/60 shadow-sm">
+                        <div
+                            class="flex items-center space-x-2 bg-white/80 backdrop-blur-sm rounded-full px-4 py-2 border border-neutral-200/60 shadow-sm">
                             <i class="fas fa-check-circle text-emerald-600 text-sm"></i>
-                            <span class="text-sm font-medium text-neutral-700">Data Marketplace</span>
+                            <span class="text-sm font-medium text-neutral-700">Data Discovery</span>
                         </div>
-                        <div class="flex items-center space-x-2 bg-white/80 backdrop-blur-sm rounded-full px-4 py-2 border border-neutral-200/60 shadow-sm">
+                        <div
+                            class="flex items-center space-x-2 bg-white/80 backdrop-blur-sm rounded-full px-4 py-2 border border-neutral-200/60 shadow-sm">
                             <i class="fas fa-check-circle text-emerald-600 text-sm"></i>
                             <span class="text-sm font-medium text-neutral-700">Marketplace Economy</span>
                         </div>
                     </div>
-
-                    <!-- Stats -->
-                    <!-- <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 mb-8">
-                        <div class="text-center lg:text-left">
-                            <div class="text-2xl font-bold text-neutral-900">15K+</div>
-                            <div class="text-sm text-neutral-600">Portfolio Creators</div>
-                        </div>
-                        <div class="text-center lg:text-left">
-                            <div class="text-2xl font-bold text-neutral-900">50K+</div>
-                            <div class="text-sm text-neutral-600">Portfolio Datasets</div>
-                        </div>
-                        <div class="text-center lg:text-left">
-                            <div class="text-2xl font-bold text-neutral-900">48</div>
-                            <div class="text-sm text-neutral-600">Countries Supported</div>
-                        </div>
-                        <div class="text-center lg:text-left">
-                            <div class="text-2xl font-bold text-neutral-900">100K+</div>
-                            <div class="text-sm text-neutral-600">Data Purchases</div>
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <button class="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-lg px-8 py-3 shadow-lg text-white rounded-lg transition-all">
-                            Browse Portfolios
-                        </button>
-                        <button class="border border-neutral-300 text-neutral-700 text-lg px-8 py-3 hover:bg-neutral-50 bg-transparent rounded-lg transition-colors">
-                            Become a Creator
-                        </button>
-                    </div> -->
-                </div>
-
-                <div class="relative">
-                    <div class="relative z-10 bg-white/90 backdrop-blur-xl rounded-3xl shadow-2xl p-8 border border-neutral-200/60">
-                        <div class="text-center mb-6">
-                            <div class="w-16 h-16 bg-gradient-to-br from-neutral-800 to-stone-700 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
-                                <i class="fas fa-database text-white text-2xl"></i>
-                            </div>
-                            <h3 class="text-lg font-semibold text-neutral-900">Portfolio Data Access</h3>
-                            <p class="text-neutral-600">Detailed Holdings & Analytics</p>
-                        </div>
-
-                        <div class="space-y-4">
-                            <div class="flex items-center justify-between p-3 bg-gradient-to-r from-emerald-50 to-teal-50 rounded-xl border border-emerald-200/60">
-                                <span class="text-sm font-medium text-neutral-700">Tech Growth Portfolio</span>
-                                <span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full text-xs font-medium">+24.5%</span>
-                            </div>
-                            <div class="flex items-center justify-between p-3 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl border border-blue-200/60">
-                                <span class="text-sm font-medium text-neutral-700">Dividend Aristocrats</span>
-                                <span class="bg-blue-100 text-blue-700 px-2 py-1 rounded-full text-xs font-medium">+12.8%</span>
-                            </div>
-                            <div class="flex items-center justify-between p-3 bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl border border-amber-200/60">
-                                <span class="text-sm font-medium text-neutral-700">ESG Leaders</span>
-                                <span class="bg-amber-100 text-amber-700 px-2 py-1 rounded-full text-xs font-medium">+18.2%</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Decorative elements -->
-                    <div class="absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-r from-amber-400/20 to-orange-400/20 rounded-full blur-xl"></div>
-                    <div class="absolute -bottom-4 -left-4 w-32 h-32 bg-gradient-to-r from-orange-400/20 to-red-400/20 rounded-full blur-xl"></div>
                 </div>
             </div>
         </div>
@@ -195,75 +167,96 @@
 
     <!-- Features Section -->
     <section id="features" class="py-10 bg-white/60 backdrop-blur-sm">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <div class="mb-4 inline-block bg-gradient-to-r from-neutral-100 to-stone-100 text-neutral-700 border border-neutral-200 px-4 py-2 rounded-full text-sm font-medium">
+                <div
+                    class="mb-4 inline-block bg-gradient-to-r from-neutral-100 to-stone-100 text-neutral-700 border border-neutral-200 px-4 py-2 rounded-full text-sm font-medium">
                     ✨ Platform Features
                 </div>
                 <h2 class="text-3xl lg:text-4xl font-bold text-neutral-900 mb-4">
                     Everything You Need for
-                    <span class="bg-gradient-to-r from-amber-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
+                    <span
+                        class="bg-gradient-to-r from-amber-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
                         Portfolio Discovery
                     </span>
                 </h2>
                 <p class="text-xl text-neutral-600 max-w-3xl mx-auto">
-                    Comprehensive tools for discovering, analyzing, and purchasing portfolio data from creators worldwide.
+                    Comprehensive tools for discovering, analyzing, and purchasing portfolio data from creators
+                    worldwide.
                 </p>
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Feature 1 -->
-                <div class="border border-neutral-200/60 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white/90 backdrop-blur-sm rounded-xl p-6">
-                    <div class="w-12 h-12 bg-gradient-to-br from-neutral-100 to-stone-100 rounded-xl flex items-center justify-center mb-4 shadow-sm">
+                <div
+                    class="border border-neutral-200/60 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white/90 backdrop-blur-sm rounded-xl p-6">
+                    <div
+                        class="w-12 h-12 bg-gradient-to-br from-neutral-100 to-stone-100 rounded-xl flex items-center justify-center mb-4 shadow-sm">
                         <i class="fas fa-database text-neutral-700"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-neutral-900 mb-2">Portfolio Data Discovery</h3>
-                    <p class="text-neutral-600 leading-relaxed">Browse thousands of portfolio compositions with detailed holdings, allocations, and performance metrics.</p>
+                    <p class="text-neutral-600 leading-relaxed">Browse thousands of portfolio compositions with detailed
+                        holdings, allocations, and performance metrics.</p>
                 </div>
 
                 <!-- Feature 2 -->
-                <div class="border border-neutral-200/60 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white/90 backdrop-blur-sm rounded-xl p-6">
-                    <div class="w-12 h-12 bg-gradient-to-br from-neutral-100 to-stone-100 rounded-xl flex items-center justify-center mb-4 shadow-sm">
+                <div
+                    class="border border-neutral-200/60 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white/90 backdrop-blur-sm rounded-xl p-6">
+                    <div
+                        class="w-12 h-12 bg-gradient-to-br from-neutral-100 to-stone-100 rounded-xl flex items-center justify-center mb-4 shadow-sm">
                         <i class="fas fa-chart-bar text-neutral-700"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-neutral-900 mb-2">24+ Financial Metrics</h3>
-                    <p class="text-neutral-600 leading-relaxed">Access comprehensive analytics including Sharpe ratio, volatility, drawdown, Sortino ratio and more.</p>
+                    <p class="text-neutral-600 leading-relaxed">Access comprehensive analytics including Sharpe ratio,
+                        volatility, drawdown, Sortino ratio and more.</p>
                 </div>
 
                 <!-- Feature 3 -->
-                <div class="border border-neutral-200/60 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white/90 backdrop-blur-sm rounded-xl p-6">
-                    <div class="w-12 h-12 bg-gradient-to-br from-neutral-100 to-stone-100 rounded-xl flex items-center justify-center mb-4 shadow-sm">
+                <div
+                    class="border border-neutral-200/60 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white/90 backdrop-blur-sm rounded-xl p-6">
+                    <div
+                        class="w-12 h-12 bg-gradient-to-br from-neutral-100 to-stone-100 rounded-xl flex items-center justify-center mb-4 shadow-sm">
                         <i class="fas fa-filter text-neutral-700"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-neutral-900 mb-2">Advanced Filtering</h3>
-                    <p class="text-neutral-600 leading-relaxed">Filter portfolios by performance metrics, risk levels, forward performance and geographic regions.</p>
+                    <p class="text-neutral-600 leading-relaxed">Filter portfolios by performance metrics, risk levels,
+                        forward performance and geographic regions.</p>
                 </div>
 
                 <!-- Feature 4 -->
-                <div class="border border-neutral-200/60 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white/90 backdrop-blur-sm rounded-xl p-6">
-                    <div class="w-12 h-12 bg-gradient-to-br from-neutral-100 to-stone-100 rounded-xl flex items-center justify-center mb-4 shadow-sm">
+                <div
+                    class="border border-neutral-200/60 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white/90 backdrop-blur-sm rounded-xl p-6">
+                    <div
+                        class="w-12 h-12 bg-gradient-to-br from-neutral-100 to-stone-100 rounded-xl flex items-center justify-center mb-4 shadow-sm">
                         <i class="fas fa-shield-alt text-neutral-700"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-neutral-900 mb-2">Data Quality</h3>
-                    <p class="text-neutral-600 leading-relaxed">All portfolio data is standardized for accuracy and reliability.</p>
+                    <p class="text-neutral-600 leading-relaxed">All portfolio data is standardized for accuracy and
+                        reliability.</p>
                 </div>
 
                 <!-- Feature 5 -->
-                <div class="border border-neutral-200/60 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white/90 backdrop-blur-sm rounded-xl p-6">
-                    <div class="w-12 h-12 bg-gradient-to-br from-neutral-100 to-stone-100 rounded-xl flex items-center justify-center mb-4 shadow-sm">
+                <div
+                    class="border border-neutral-200/60 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white/90 backdrop-blur-sm rounded-xl p-6">
+                    <div
+                        class="w-12 h-12 bg-gradient-to-br from-neutral-100 to-stone-100 rounded-xl flex items-center justify-center mb-4 shadow-sm">
                         <i class="fas fa-users text-neutral-700"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-neutral-900 mb-2">Creator Community</h3>
-                    <p class="text-neutral-600 leading-relaxed">Join a global community of portfolio creators sharing their strategies and insights.</p>
+                    <p class="text-neutral-600 leading-relaxed">Join a global community of portfolio creators sharing
+                        their strategies and insights.</p>
                 </div>
 
                 <!-- Feature 6 -->
-                <div class="border border-neutral-200/60 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white/90 backdrop-blur-sm rounded-xl p-6">
-                    <div class="w-12 h-12 bg-gradient-to-br from-neutral-100 to-stone-100 rounded-xl flex items-center justify-center mb-4 shadow-sm">
+                <div
+                    class="border border-neutral-200/60 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white/90 backdrop-blur-sm rounded-xl p-6">
+                    <div
+                        class="w-12 h-12 bg-gradient-to-br from-neutral-100 to-stone-100 rounded-xl flex items-center justify-center mb-4 shadow-sm">
                         <i class="fas fa-dollar-sign text-neutral-700"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-neutral-900 mb-2">Monetize Your Portfolios</h3>
-                    <p class="text-neutral-600 leading-relaxed">Earn revenue when users purchase access to your portfolio data and compositions.</p>
+                    <p class="text-neutral-600 leading-relaxed">Earn revenue when users purchase access to your
+                        portfolio data and compositions.</p>
                 </div>
             </div>
         </div>
@@ -273,12 +266,14 @@
     <section id="how-it-works" class="py-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <div class="mb-4 inline-block bg-gradient-to-r from-emerald-100 to-teal-100 text-emerald-700 border border-emerald-200 px-4 py-2 rounded-full text-sm font-medium">
+                <div
+                    class="mb-4 inline-block bg-gradient-to-r from-emerald-100 to-teal-100 text-emerald-700 border border-emerald-200 px-4 py-2 rounded-full text-sm font-medium">
                     🎯 Simple Process
                 </div>
                 <h2 class="text-3xl lg:text-4xl font-bold text-neutral-900 mb-4">
                     How Portfolio Market
-                    <span class="bg-gradient-to-r from-amber-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
+                    <span
+                        class="bg-gradient-to-r from-amber-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
                         Works
                     </span>
                 </h2>
@@ -290,38 +285,46 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Step 1 -->
                 <div class="text-center relative">
-                    <div class="w-16 h-16 bg-gradient-to-br from-neutral-800 to-stone-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-gradient-to-br from-neutral-800 to-stone-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
                         <i class="fas fa-search text-white text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-neutral-900 mb-3">Discover</h3>
-                    <p class="text-neutral-600 leading-relaxed">Browse portfolio data from creators worldwide using our advanced filtering system.</p>
+                    <p class="text-neutral-600 leading-relaxed">Browse portfolio data from creators worldwide using our
+                        advanced filtering system.</p>
                 </div>
 
                 <!-- Step 2 -->
                 <div class="text-center relative">
-                    <div class="w-16 h-16 bg-gradient-to-br from-neutral-800 to-stone-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-gradient-to-br from-neutral-800 to-stone-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
                         <i class="fas fa-eye text-white text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-neutral-900 mb-3">Analyze</h3>
-                    <p class="text-neutral-600 leading-relaxed">Review detailed metrics, backtests, and performance analytics for each portfolio.</p>
+                    <p class="text-neutral-600 leading-relaxed">Review detailed metrics, backtests, and performance
+                        analytics for each portfolio.</p>
                 </div>
 
                 <!-- Step 3 -->
                 <div class="text-center relative">
-                    <div class="w-16 h-16 bg-gradient-to-br from-neutral-800 to-stone-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-gradient-to-br from-neutral-800 to-stone-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
                         <i class="fas fa-credit-card text-white text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-neutral-900 mb-3">Purchase Data</h3>
-                    <p class="text-neutral-600 leading-relaxed">Buy access to portfolio holdings, allocations, and detailed composition data.</p>
+                    <p class="text-neutral-600 leading-relaxed">Buy access to portfolio holdings, allocations, and
+                        detailed composition data.</p>
                 </div>
 
                 <!-- Step 4 -->
                 <div class="text-center relative">
-                    <div class="w-16 h-16 bg-gradient-to-br from-neutral-800 to-stone-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-gradient-to-br from-neutral-800 to-stone-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
                         <i class="fas fa-chart-line text-white text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-neutral-900 mb-3">Track & Learn</h3>
-                    <p class="text-neutral-600 leading-relaxed">Monitor portfolio performance and learn from successful allocation strategies.</p>
+                    <p class="text-neutral-600 leading-relaxed">Monitor portfolio performance and learn from successful
+                        allocation strategies.</p>
                 </div>
             </div>
         </div>
@@ -331,12 +334,14 @@
     <section id="global" class="py-15 bg-white/60 backdrop-blur-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <div class="mb-4 inline-block bg-gradient-to-r from-blue-100 to-cyan-100 text-blue-700 border border-blue-200 px-4 py-2 rounded-full text-sm font-medium">
+                <div
+                    class="mb-4 inline-block bg-gradient-to-r from-blue-100 to-cyan-100 text-blue-700 border border-blue-200 px-4 py-2 rounded-full text-sm font-medium">
                     🌍 Global Platform
                 </div>
                 <h2 class="text-3xl lg:text-4xl font-bold text-neutral-900 mb-4">
                     Available in
-                    <span class="bg-gradient-to-r from-amber-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
+                    <span
+                        class="bg-gradient-to-r from-amber-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
                         48 Countries
                     </span>
                 </h2>
@@ -346,148 +351,196 @@
             </div>
 
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇦🇷 Argentina</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇦🇺 Australia</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇦🇹 Austria</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇧🇪 Belgium</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇧🇷 Brazil</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇨🇦 Canada</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇨🇱 Chile</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇨🇳 China</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇨🇿 Czech Republic</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇩🇰 Denmark</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇪🇬 Egypt</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇪🇪 Estonia</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇫🇮 Finland</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇫🇷 France</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇩🇪 Germany</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇬🇷 Greece</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇭🇰 Hong Kong</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇭🇺 Hungary</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇮🇳 India</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇮🇩 Indonesia</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇮🇪 Ireland</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇮🇱 Israel</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇮🇹 Italy</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇯🇵 Japan</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇱🇻 Latvia</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇱🇹 Lithuania</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇲🇾 Malaysia</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇲🇽 Mexico</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇳🇱 Netherlands</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇳🇿 New Zealand</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇵🇪 Peru</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇵🇹 Portugal</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇶🇦 Qatar</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇷🇺 Russia</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇸🇦 Saudi Arabia</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇸🇬 Singapore</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇿🇦 South Africa</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇰🇷 South Korea</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇪🇸 Spain</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇸🇪 Sweden</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇨🇭 Switzerland</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇹🇼 Taiwan</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇹🇭 Thailand</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇹🇷 Turkey</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇦🇪 United Arab Emirates</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇬🇧 United Kingdom</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇺🇸 United States</span>
                 </div>
-                <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div
+                    class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center border border-neutral-200/60 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     <span class="text-sm font-medium text-neutral-700">🇻🇪 Venezuela</span>
                 </div>
             </div>
@@ -505,12 +558,14 @@
     <section id="testimonials" class="py-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <div class="mb-4 inline-block bg-gradient-to-r from-yellow-100 to-amber-100 text-yellow-700 border border-yellow-200 px-4 py-2 rounded-full text-sm font-medium">
+                <div
+                    class="mb-4 inline-block bg-gradient-to-r from-yellow-100 to-amber-100 text-yellow-700 border border-yellow-200 px-4 py-2 rounded-full text-sm font-medium">
                     ⭐ User Reviews
                 </div>
                 <h2 class="text-3xl lg:text-4xl font-bold text-neutral-900 mb-4">
                     Trusted by
-                    <span class="bg-gradient-to-r from-amber-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
+                    <span
+                        class="bg-gradient-to-r from-amber-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
                         Data Professionals
                     </span>
                 </h2>
@@ -521,7 +576,8 @@
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Testimonial 1 -->
-                <div class="border border-neutral-200/60 hover:shadow-xl transition-shadow bg-white/90 backdrop-blur-sm rounded-xl p-6">
+                <div
+                    class="border border-neutral-200/60 hover:shadow-xl transition-shadow bg-white/90 backdrop-blur-sm rounded-xl p-6">
                     <div class="flex items-center mb-4">
                         <i class="fas fa-star text-amber-400"></i>
                         <i class="fas fa-star text-amber-400"></i>
@@ -529,9 +585,11 @@
                         <i class="fas fa-star text-amber-400"></i>
                         <i class="fas fa-star text-amber-400"></i>
                     </div>
-                    <p class="text-neutral-600 mb-6 leading-relaxed italic">"Portfolio Market has become our go-to source for discovering innovative portfolio compositions and allocation strategies."</p>
+                    <p class="text-neutral-600 mb-6 leading-relaxed italic">"Portfolio Market has become our go-to
+                        source for discovering innovative portfolio compositions and allocation strategies."</p>
                     <div class="flex items-center">
-                        <div class="w-10 h-10 bg-gradient-to-r from-neutral-100 to-stone-100 text-neutral-700 rounded-full flex items-center justify-center mr-3">
+                        <div
+                            class="w-10 h-10 bg-gradient-to-r from-neutral-100 to-stone-100 text-neutral-700 rounded-full flex items-center justify-center mr-3">
                             SC
                         </div>
                         <div>
@@ -542,7 +600,8 @@
                 </div>
 
                 <!-- Testimonial 2 -->
-                <div class="border border-neutral-200/60 hover:shadow-xl transition-shadow bg-white/90 backdrop-blur-sm rounded-xl p-6">
+                <div
+                    class="border border-neutral-200/60 hover:shadow-xl transition-shadow bg-white/90 backdrop-blur-sm rounded-xl p-6">
                     <div class="flex items-center mb-4">
                         <i class="fas fa-star text-amber-400"></i>
                         <i class="fas fa-star text-amber-400"></i>
@@ -550,9 +609,11 @@
                         <i class="fas fa-star text-amber-400"></i>
                         <i class="fas fa-star text-amber-400"></i>
                     </div>
-                    <p class="text-neutral-600 mb-6 leading-relaxed italic">"The quality of portfolio data and metrics available here is exceptional. It's transformed my research process."</p>
+                    <p class="text-neutral-600 mb-6 leading-relaxed italic">"The quality of portfolio data and metrics
+                        available here is exceptional. It's transformed my research process."</p>
                     <div class="flex items-center">
-                        <div class="w-10 h-10 bg-gradient-to-r from-neutral-100 to-stone-100 text-neutral-700 rounded-full flex items-center justify-center mr-3">
+                        <div
+                            class="w-10 h-10 bg-gradient-to-r from-neutral-100 to-stone-100 text-neutral-700 rounded-full flex items-center justify-center mr-3">
                             MR
                         </div>
                         <div>
@@ -563,7 +624,8 @@
                 </div>
 
                 <!-- Testimonial 3 -->
-                <div class="border border-neutral-200/60 hover:shadow-xl transition-shadow bg-white/90 backdrop-blur-sm rounded-xl p-6">
+                <div
+                    class="border border-neutral-200/60 hover:shadow-xl transition-shadow bg-white/90 backdrop-blur-sm rounded-xl p-6">
                     <div class="flex items-center mb-4">
                         <i class="fas fa-star text-amber-400"></i>
                         <i class="fas fa-star text-amber-400"></i>
@@ -571,9 +633,11 @@
                         <i class="fas fa-star text-amber-400"></i>
                         <i class="fas fa-star text-amber-400"></i>
                     </div>
-                    <p class="text-neutral-600 mb-6 leading-relaxed italic">"I've been able to monetize my portfolio research by sharing my compositions. The platform makes it so easy."</p>
+                    <p class="text-neutral-600 mb-6 leading-relaxed italic">"I've been able to monetize my portfolio
+                        research by sharing my compositions. The platform makes it so easy."</p>
                     <div class="flex items-center">
-                        <div class="w-10 h-10 bg-gradient-to-r from-neutral-100 to-stone-100 text-neutral-700 rounded-full flex items-center justify-center mr-3">
+                        <div
+                            class="w-10 h-10 bg-gradient-to-r from-neutral-100 to-stone-100 text-neutral-700 rounded-full flex items-center justify-center mr-3">
                             EJ
                         </div>
                         <div>
@@ -590,7 +654,8 @@
     <section id="download" class="py-20 bg-gradient-to-br from-neutral-800 via-stone-700 to-amber-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div class="max-w-3xl mx-auto">
-                <div class="w-20 h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-8 shadow-lg">
+                <div
+                    class="w-20 h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-8 shadow-lg">
                     <i class="fas fa-mobile-alt text-white text-3xl"></i>
                 </div>
                 <!-- <h2 class="text-3xl lg:text-4xl font-bold text-white mb-4">Portfolio Market</h2> -->
@@ -600,14 +665,16 @@
                 </p>
 
                 <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-                    <button class="bg-black/80 hover:bg-black text-white px-8 py-3 rounded-xl flex items-center space-x-3 backdrop-blur-sm transition-all opacity-50 cursor-not-allowed">
+                    <button
+                        class="bg-black/80 hover:bg-black text-white px-8 py-3 rounded-xl flex items-center space-x-3 backdrop-blur-sm transition-all opacity-50 cursor-not-allowed">
                         <i class="fas fa-download"></i>
                         <div class="text-left">
                             <div class="text-xs">Download on the</div>
                             <div class="text-sm font-semibold">App Store</div>
                         </div>
                     </button>
-                    <button class="bg-black/80 hover:bg-black text-white px-8 py-3 rounded-xl flex items-center space-x-3 backdrop-blur-sm transition-all opacity-50 cursor-not-allowed">
+                    <button
+                        class="bg-black/80 hover:bg-black text-white px-8 py-3 rounded-xl flex items-center space-x-3 backdrop-blur-sm transition-all opacity-50 cursor-not-allowed">
                         <i class="fas fa-download"></i>
                         <div class="text-left">
                             <div class="text-xs">Get it on</div>
@@ -700,7 +767,7 @@
 
     <script>
         // Mobile menu toggle
-        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+        document.getElementById('mobile-menu-btn').addEventListener('click', function () {
             const menu = document.getElementById('mobile-menu');
             menu.classList.toggle('hidden');
         });
@@ -720,4 +787,5 @@
         });
     </script>
 </body>
+
 </html>
